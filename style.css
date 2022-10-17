@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding-top: 500px;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#98a122 0%,#55ff33 100%);
+    display: table;
+    width: 100%; 
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family:  'Arial Narrow' ;
+    font-weight: 300;
+}
+h2{
+    font-size:30px;
+    font-weight: 300;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+#bio{
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.div1{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 80;
+    cursor: pointer;
+    background: whitesmoke;
+}
+.links{
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family:  sans-serif;
+    font-size: 20px;
+
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+a{
+    text-decoration: none;
+}
+#records a {
+    text-decoration: underline !important;
+    color: #55ff33;
+
+
+}
+#contact{
+    background:lightgreen ;
+}
+#contact iframe{
+    width: 100%;
+}
